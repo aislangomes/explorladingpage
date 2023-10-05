@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@600;700;900&family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="index.css">
+  <title>Explorer Challenge</title>
+</head>
+<body>
+  <header>
+    <div id="headerContent">
+      <div id="headerLeftside">
+        <div id="tileSubtitle">
+          <h1>Explore sem limites</h1>
+          <h2>Porque o aprendizado é contínuo</h2>
+        </div>
+        <img src="images/arrow.svg" id="arrowimg" alt="Seta para baixo">
+      </div>
+      <img src="images/astronauta.png" id="astronautimg" alt="Astronauta explorando">
+    </div>
+  </header>
+  <main>
+    <section id="infoCards">
+    <ul>
+      <li class="card">
+        <img src="images/planetyellow.png" alt="Planeta Amarelo">
+        <h3>Não para nunca</h3>
+        <p>Se você deseja ter sucesso nos estudos, é fundamental que você adote uma mentalidade de "não pare nunca". Estudar de forma consistente e contínua é a chave para o progresso e a conquista de seus objetivos.</p>
+      </li>
+      <li class="card">
+        <img src="images/planetblue.png" alt="Planeta Azul">
+        <h3>Só volta</h3>
+        <p>Se você parou ou perdeu o ritmo em alguma atividade ou projeto, saiba que nunca é tarde para recomeçar. Às vezes, as circunstâncias podem mudar, ou podemos nos sentir desmotivados ou sobrecarregados.</p>
+      </li>
+      <li class="card">
+        <img src="images/planetpink.png" alt="Planeta Rosa">
+        <h3>Siga seu ritmo</h3>
+        <p>Avançar pouco a pouco mantém progresso constante em objetivos, evitando parar ou desistir. Mesmo pequenos passos nos aproximam do destino e motivam a continuidade. Não subestime o poder de cada ação rumo ao objetivo final.</p>
+      </li>
+    </ul>
+  </section>
+  <section id="contact">
+    <div id="contactLeft">
+      <h3>Entre em contato</h3>
+      <form action="sendmessage" method="post" class="forms">
+        <label>
+          <input type="text" id="uname" name="fname" placeholder="Seu nome"><br>
+        </label>
+        <label>
+          <input type="email" id="uemail" name="email" placeholder="Email"><br>
+        </label>
+        <textarea name="message"id="umessage" name="message" placeholder="Digite sua mensagem aqui..."></textarea><br>
+        <input type="button" id="submit" name="submit" value="Enviar Mensagem"><br>
+      </form>
+    </div>
+    <img src="/images/fade.png" id="fadeimg" alt="Fade">
+  </section>
+  </main>
+  <footer>
+    <h4>© 2023 - Rocketseat Explorer</h4>
+  </footer>
+  
+</body>
+</html>

@@ -1,0 +1,176 @@
+/* Main configs */
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+:root{
+  background: rgba(249, 244, 251, 1);
+  font-size: 62.5%;
+
+}
+
+/* Space and position */
+header{
+  height: 110vh;
+  display: flex;
+  justify-content: center;
+}
+#headerContent{
+  height: 90%;
+  width: 80%;
+  min-height: 90rem;
+  min-width: 150rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+#headerLeftside{
+  width: 50%;
+}
+
+#tileSubtitle{
+  position: relative;
+  width: 100%;
+  top: 30rem;
+}
+
+#arrowimg{
+  height: 10rem;
+  position: relative;
+  top: 70rem;
+}
+
+main{
+  overflow: auto;  
+}
+
+#infoCards{
+  height: 65rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, rgba(52,49,147,1) 0%, rgba(48,44,99,1) 100%);
+}
+
+ul{
+  list-style: none;
+  padding-left: 0;
+  position: relative;
+  bottom: 3rem;
+  height: 80%;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.card{
+  border-radius: 3rem;
+  width: 46em;
+  height: 55em;
+  padding: 3rem;
+  background-color: rgba(249, 244, 251, 1);
+}
+.card img {
+  height: 12rem;
+}
+
+
+#contact{
+  display: flex;
+  justify-content: space-between;
+  height: 80rem;
+}
+
+#contactLeft{
+  margin-top: 10rem;
+  margin-left: 18.8rem;
+}
+
+form{
+  height: 50rem;
+}
+
+input[type=email], input[type=text] {
+  margin: 1rem 0rem;
+  border: 0.1rem solid rgba(49, 45, 100, 1);
+  border-radius: 1.5rem;
+  padding: 1.5rem 45rem 1.5rem 4rem;
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  font: 600 1.5rem "Mulish", sans-serif;
+}
+input[type=email]{
+  background-image: url('images/at.png');
+
+}
+input[type=text]{
+  background-image: url('images/person.png');
+}
+
+
+
+input[type=button]{
+  background: linear-gradient(135deg, rgba(52,49,147,1) 0%, rgba(48,44,99,1) 100%);
+  border: none;
+  border-radius: 1.5rem;
+  color:  rgba(249, 244, 251, 1);
+  padding: 1.5rem 2rem;
+  margin: 1rem 0rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font: 600 1.5rem "Mulish", sans-serif;
+}
+
+textarea {
+  width: 100%;
+  height: 150px;
+  margin: 1rem 0rem;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 0.1rem solid rgba(49, 45, 100, 1);
+  border-radius: 1.5rem;
+  resize: none;
+  font: 600 1.5rem "Mulish", sans-serif;
+}
+
+label{
+  display: flex;
+  
+}
+
+footer{
+  height: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, rgba(52,49,147,1) 0%, rgba(48,44,99,1) 100%);
+}
+
+
+/* Fonts and color */
+
+h1{
+  font: 900 5rem "Mulish", sans-serif;
+}
+h2{
+  font: 600 2.8rem "Mulish", sans-serif;
+}
+h3{
+  margin-top: 3rem;
+  font: 900 4.5rem "Mulish", sans-serif;
+}
+h4{
+  margin-top: 3rem;
+  font: 600 2.5rem "Mulish", sans-serif;
+  color:  rgba(249, 244, 251, 1);;
+}
+p{
+  margin-top: 2rem;
+  font: 600 2.4rem "Mulish", sans-serif;
+}
+
+h1,h3{
+  color: rgba(181, 33, 132, 1);
+}
